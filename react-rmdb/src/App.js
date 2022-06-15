@@ -1,5 +1,6 @@
 import React from 'react';
 
+// Routing
 
 //Import styles
 import { GlobalStyle } from './GlobalStyle';
@@ -12,9 +13,9 @@ import Home from './Componets/Home';
 function App() {
   return (
     <div className="App">
-      <Header/>
-      <Home/>
-      <GlobalStyle/>
+      <Header />
+      <Home />
+      <GlobalStyle />
     </div>
   );
 }
@@ -23,4 +24,3 @@ function App() {
 
 
 export default App;
-  
